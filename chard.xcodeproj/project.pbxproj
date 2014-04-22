@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		721F3071190709A900A8BD3B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 721F3070190709A900A8BD3B /* Card.m */; };
+		728EF10219070B8A0015A3DC /* GLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 728EF10119070B8A0015A3DC /* GLogic.m */; };
+		728EF105190722F40015A3DC /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 728EF104190722F40015A3DC /* Deck.m */; };
+		72975D61190704F400898D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72975D60190704F400898D32 /* Foundation.framework */; };
+		72975D63190704F400898D32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72975D62190704F400898D32 /* CoreGraphics.framework */; };
+		72975D65190704F400898D32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72975D64190704F400898D32 /* UIKit.framework */; };
+		72975D6B190704F400898D32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72975D69190704F400898D32 /* InfoPlist.strings */; };
+		72975D6D190704F400898D32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72975D6C190704F400898D32 /* main.m */; };
+		72975D71190704F400898D32 /* ChardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72975D70190704F400898D32 /* ChardAppDelegate.m */; };
+		72975D74190704F400898D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72975D72190704F400898D32 /* Main.storyboard */; };
+		72975D77190704F400898D32 /* ChardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72975D76190704F400898D32 /* ChardViewController.m */; };
+		72975D79190704F400898D32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72975D78190704F400898D32 /* Images.xcassets */; };
+		72975D80190704F400898D32 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72975D7F190704F400898D32 /* XCTest.framework */; };
+		72975D81190704F400898D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72975D60190704F400898D32 /* Foundation.framework */; };
+		72975D82190704F400898D32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72975D64190704F400898D32 /* UIKit.framework */; };
+		72975D8A190704F500898D32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72975D88190704F500898D32 /* InfoPlist.strings */; };
+		72975D8C190704F500898D32 /* chardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72975D8B190704F500898D32 /* chardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72975D83190704F500898D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72975D55190704F400898D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72975D5C190704F400898D32;
+			remoteInfo = chard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		721F306F190709A900A8BD3B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		721F3070190709A900A8BD3B /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		728EF10019070B8A0015A3DC /* GLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLogic.h; path = Model/GLogic.h; sourceTree = "<group>"; };
+		728EF10119070B8A0015A3DC /* GLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLogic.m; path = Model/GLogic.m; sourceTree = "<group>"; };
+		728EF103190722F40015A3DC /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		728EF104190722F40015A3DC /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		72975D5D190704F400898D32 /* chard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72975D60190704F400898D32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72975D62190704F400898D32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72975D64190704F400898D32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72975D68190704F400898D32 /* chard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chard-Info.plist"; sourceTree = "<group>"; };
+		72975D6A190704F400898D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72975D6C190704F400898D32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72975D6E190704F400898D32 /* chard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chard-Prefix.pch"; sourceTree = "<group>"; };
+		72975D6F190704F400898D32 /* ChardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChardAppDelegate.h; sourceTree = "<group>"; };
+		72975D70190704F400898D32 /* ChardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChardAppDelegate.m; sourceTree = "<group>"; };
+		72975D73190704F400898D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72975D75190704F400898D32 /* ChardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChardViewController.h; sourceTree = "<group>"; };
+		72975D76190704F400898D32 /* ChardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChardViewController.m; sourceTree = "<group>"; };
+		72975D78190704F400898D32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72975D7E190704F400898D32 /* chardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72975D7F190704F400898D32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		72975D87190704F500898D32 /* chardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chardTests-Info.plist"; sourceTree = "<group>"; };
+		72975D89190704F500898D32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72975D8B190704F500898D32 /* chardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72975D5A190704F400898D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72975D63190704F400898D32 /* CoreGraphics.framework in Frameworks */,
+				72975D65190704F400898D32 /* UIKit.framework in Frameworks */,
+				72975D61190704F400898D32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72975D7B190704F400898D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72975D80190704F400898D32 /* XCTest.framework in Frameworks */,
+				72975D82190704F400898D32 /* UIKit.framework in Frameworks */,
+				72975D81190704F400898D32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		721F3072190709B300A8BD3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				728EF10019070B8A0015A3DC /* GLogic.h */,
+				728EF10119070B8A0015A3DC /* GLogic.m */,
+				721F306F190709A900A8BD3B /* Card.h */,
+				721F3070190709A900A8BD3B /* Card.m */,
+				728EF103190722F40015A3DC /* Deck.h */,
+				728EF104190722F40015A3DC /* Deck.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		72975D54190704F400898D32 = {
+			isa = PBXGroup;
+			children = (
+				72975D66190704F400898D32 /* chard */,
+				72975D85190704F500898D32 /* chardTests */,
+				72975D5F190704F400898D32 /* Frameworks */,
+				72975D5E190704F400898D32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72975D5E190704F400898D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72975D5D190704F400898D32 /* chard.app */,
+				72975D7E190704F400898D32 /* chardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72975D5F190704F400898D32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72975D60190704F400898D32 /* Foundation.framework */,
+				72975D62190704F400898D32 /* CoreGraphics.framework */,
+				72975D64190704F400898D32 /* UIKit.framework */,
+				72975D7F190704F400898D32 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72975D66190704F400898D32 /* chard */ = {
+			isa = PBXGroup;
+			children = (
+				72975D6F190704F400898D32 /* ChardAppDelegate.h */,
+				72975D70190704F400898D32 /* ChardAppDelegate.m */,
+				72975D72190704F400898D32 /* Main.storyboard */,
+				72975D75190704F400898D32 /* ChardViewController.h */,
+				72975D76190704F400898D32 /* ChardViewController.m */,
+				72975D78190704F400898D32 /* Images.xcassets */,
+				721F3072190709B300A8BD3B /* Model */,
+				72975D67190704F400898D32 /* Supporting Files */,
+			);
+			path = chard;
+			sourceTree = "<group>";
+		};
+		72975D67190704F400898D32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72975D68190704F400898D32 /* chard-Info.plist */,
+				72975D69190704F400898D32 /* InfoPlist.strings */,
+				72975D6C190704F400898D32 /* main.m */,
+				72975D6E190704F400898D32 /* chard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72975D85190704F500898D32 /* chardTests */ = {
+			isa = PBXGroup;
+			children = (
+				72975D8B190704F500898D32 /* chardTests.m */,
+				72975D86190704F500898D32 /* Supporting Files */,
+			);
+			path = chardTests;
+			sourceTree = "<group>";
+		};
+		72975D86190704F500898D32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72975D87190704F500898D32 /* chardTests-Info.plist */,
+				72975D88190704F500898D32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72975D5C190704F400898D32 /* chard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72975D8F190704F500898D32 /* Build configuration list for PBXNativeTarget "chard" */;
+			buildPhases = (
+				72975D59190704F400898D32 /* Sources */,
+				72975D5A190704F400898D32 /* Frameworks */,
+				72975D5B190704F400898D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chard;
+			productName = chard;
+			productReference = 72975D5D190704F400898D32 /* chard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72975D7D190704F400898D32 /* chardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72975D92190704F500898D32 /* Build configuration list for PBXNativeTarget "chardTests" */;
+			buildPhases = (
+				72975D7A190704F400898D32 /* Sources */,
+				72975D7B190704F400898D32 /* Frameworks */,
+				72975D7C190704F400898D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72975D84190704F500898D32 /* PBXTargetDependency */,
+			);
+			name = chardTests;
+			productName = chardTests;
+			productReference = 72975D7E190704F400898D32 /* chardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72975D55190704F400898D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Chard;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Paul;
+				TargetAttributes = {
+					72975D7D190704F400898D32 = {
+						TestTargetID = 72975D5C190704F400898D32;
+					};
+				};
+			};
+			buildConfigurationList = 72975D58190704F400898D32 /* Build configuration list for PBXProject "chard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72975D54190704F400898D32;
+			productRefGroup = 72975D5E190704F400898D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72975D5C190704F400898D32 /* chard */,
+				72975D7D190704F400898D32 /* chardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72975D5B190704F400898D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72975D79190704F400898D32 /* Images.xcassets in Resources */,
+				72975D6B190704F400898D32 /* InfoPlist.strings in Resources */,
+				72975D74190704F400898D32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72975D7C190704F400898D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72975D8A190704F500898D32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72975D59190704F400898D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72975D6D190704F400898D32 /* main.m in Sources */,
+				72975D71190704F400898D32 /* ChardAppDelegate.m in Sources */,
+				72975D77190704F400898D32 /* ChardViewController.m in Sources */,
+				728EF10219070B8A0015A3DC /* GLogic.m in Sources */,
+				728EF105190722F40015A3DC /* Deck.m in Sources */,
+				721F3071190709A900A8BD3B /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72975D7A190704F400898D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72975D8C190704F500898D32 /* chardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72975D84190704F500898D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72975D5C190704F400898D32 /* chard */;
+			targetProxy = 72975D83190704F500898D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72975D69190704F400898D32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72975D6A190704F400898D32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72975D72190704F400898D32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72975D73190704F400898D32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72975D88190704F500898D32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72975D89190704F500898D32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72975D8D190704F500898D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		72975D8E190704F500898D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72975D90190704F500898D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chard/chard-Prefix.pch";
+				INFOPLIST_FILE = "chard/chard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72975D91190704F500898D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chard/chard-Prefix.pch";
+				INFOPLIST_FILE = "chard/chard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		72975D93190704F500898D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chard.app/chard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chard/chard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "chardTests/chardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		72975D94190704F500898D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chard.app/chard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chard/chard-Prefix.pch";
+				INFOPLIST_FILE = "chardTests/chardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72975D58190704F400898D32 /* Build configuration list for PBXProject "chard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72975D8D190704F500898D32 /* Debug */,
+				72975D8E190704F500898D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72975D8F190704F500898D32 /* Build configuration list for PBXNativeTarget "chard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72975D90190704F500898D32 /* Debug */,
+				72975D91190704F500898D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72975D92190704F500898D32 /* Build configuration list for PBXNativeTarget "chardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72975D93190704F500898D32 /* Debug */,
+				72975D94190704F500898D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72975D55190704F400898D32 /* Project object */;
+}

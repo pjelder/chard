@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3C0CE5D7-3E76-42FF-8319-C837B70FBFEF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>chard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F71B8118-37D2-4C84-8FA3-812E53152377</key>
+		<string>ssh://github.com/pjelder/chard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>chard.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F71B8118-37D2-4C84-8FA3-812E53152377</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/pjelder/chard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F71B8118-37D2-4C84-8FA3-812E53152377</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F71B8118-37D2-4C84-8FA3-812E53152377</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chard</string>
+		</dict>
+	</array>
+</dict>
+</plist>
